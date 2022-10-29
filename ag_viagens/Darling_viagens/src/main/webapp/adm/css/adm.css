@@ -1,0 +1,156 @@
+/*-----------Inicio barra nav--------------*/
+.menu ul {
+	/*font-family: 'Arial';*/
+	
+	list-style: none;
+
+}
+.menu a{
+	text-decoration: none;
+	color: #9bf0e1;
+	}
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+	background: rgba(0,0,0,0.5);
+	
+}
+
+
+#esquerda {
+	margin-left: auto;
+	padding-right: 100px;
+}
+@media (max-width: 800px) {
+	.menu ul li{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.menu ul ul{
+		position: static;
+		overflow:  hidden;
+		max-height: 0;
+		transition: all .4s;
+	}
+	.menu ul li:hover ul{
+		height: auto;
+		max-height: 300px;
+	}
+}
+
+nav.nabar-transparente {
+	background: rgba(0,0,0,0.5);
+	padding: 15px 0px;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #9bf0e1;
+	
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+	
+}
+.navbar-light .nav-toggler {
+	color: rgba(255,255,255,.5);
+	border-color: white;
+}
+
+
+html, body, #home{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+.container {
+	width: 100%;
+}
+
+
+.espaco {
+  width: 100%;
+  height: 500px;
+
+}
+
+.centro {
+	text-align: center;
+	color: 	#0a0a30;
+}
+
+
+@media (min-width: 992px) {
+.espaco-branco {
+	margin: 15px;
+	/*margin-right: 10px;
+	margin-left: 10px;*/
+  	width: 100%;
+  	height: 780px;
+  	padding: 50px;
+  	background: rgba(0,255,255,0.7);
+	border-radius: 30px;
+  	
+}}
+
+.rodape {
+	flex-shrink: 0;
+	color: white;
+	padding: 30px;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background: white;
+	background: rgba(0,0,0,0.7);
+	padding: 15px 0px;
+	border-radius: 30px;
+
+
+}
+
+.img-alinhado {
+	padding: 20px;
+}
+
+/*--Pagina de login--*/
+
+.bodylogin  {
+  height: 100%; 
+  overflow: hidden;
+  background-image: url(../imagens/banner1200.png);
+  
+  background-size: cover;
+}
+
+.l-form{
+  background-color:rgba(39, 41, 45, 0.5);
+  border-radius:12px;
+  padding: 12px;
+}
+
+.i-form{
+  border-radius:12px;
+  padding: 12px;
+}
+
+#botao{ text-align: center }
+.botaoEnviar{
+    width: 330px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+
+
